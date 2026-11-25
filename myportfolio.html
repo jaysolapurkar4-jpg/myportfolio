@@ -2,14 +2,14 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="myportfolio.css">
     </head>
     <body>
         <main>
             <nav>
-                <div class="hd">Portfolio</div>
+                <div class="headTop">Portfolio</div>
                 <ul>
-                    <li><a href="#" class="home">Home</a></li>
+                    <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -17,22 +17,21 @@
                 </ul>
             </nav>
 
-            <div class="intro">
+            <div class="t1">
                 <div>
-                    <h1>Welcome to My Portfolio<br><span>Nishil Belekar</span></h1>
-                    <p>A short introduction about yourself goes here.</p>
+                    <h1>Welcome to My Portfolio<br><span>Jay Solapurkar</span></h1>
+                    <p>First year student at NIAT x Alard University, Pune, an open-source developer and student builder obsessed with turning bold ideas into working software. From auditing Python dependencies to prototyping generative, zero-state interfaces with Gemma and Supabase, I focus on clean architecture and rapid execution.</p>
                     <button class="btn">Contact Me</button>
                 </div>
-            <div class="profile">👤</div>
+            <img src="profilePic.jpeg" class="ppic">
             </div>
 
-            <section class="about" id="about">
+            <section class="aboutme" id="about">
                 <div style="flex:1">
-                    <h2>About Me</h2><br>
-                    <div class="line"></div><div class="line"></div>
-                    <div class="line" style="width:75%"></div>
+                    <h2>About Me</h2>
+                    <br>
+                    <p>First year student at NIAT x Alard University, Pune, an open-source developer and student builder obsessed with turning bold ideas into working software. From auditing Python dependencies to prototyping generative, zero-state interfaces with Gemma and Supabase, I focus on clean architecture and rapid execution.</p>
                 </div>
-                <div class="about-img">🖼️</div>
             </section>
 
             <section class="mainSkill" id="skills">
@@ -41,7 +40,6 @@
                     <div class="skill"><span>&lt;/&gt;</span><b>HTML</b></div>
                     <div class="skill"><span>🎨</span><b>CSS</b></div>
                     <div class="skill"><span>🐍</span><b>Python</b></div>
-                    <div class="skill"><span>💻</span><b>C Programming</b></div>
                     <div class="skill"><span>👥</span><b>Communication</b></div>
                 </div>
             </section>
@@ -49,39 +47,51 @@
             <section id="projects">
                 <h2>Projects</h2>
                 <div class="projects">
-                    <div class="card">
-                    <div class="card-img">⛰️</div>
-                    <div><b>Project Title</b><br><br><div class="line"></div><div class="line"></div>
-                    <button class="outline">View Project</button></div>
+                    <div class="crd">
+                        <img class="crd_image" src="Prj1.jpeg">
+                        <div>
+                            <b>kernel-ai</b>
+                            <br>
+                            <br>
+                            <p>"Kernel AI is your intelligent personal assistant, designed to control your laptop,<br> understand voice commands, read documents, and make everyday tasks effortless through the power of AI."</p>
+                            <button class="ViewP">View Project</button>
+                        </div>
                     </div>
-                    <div class="card">
-                    <div class="card-img">⛰️</div>
-                    <div><b>Project Title</b><br><br><div class="line"></div><div class="line"></div>
-                    <button class="outline">View Project</button></div>
+                    <div class="crd">
+                        <img class="crd_image" src="Prj2.jpeg">
+                        <div>
+                            <b>Podcast Studio</b>
+                            <br>
+                            <br>
+                            <p>Podcast Studio is a web-based platform for creating and managing podcasts, featuring a user-friendly interface and powerful editing tools.</p>
+                            <button class="ViewP">View Project</button>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <section class="contact" id="contact">
+            <section class="con" id="contact">
                 <div>
                     <h2>Contact</h2><br>
-                    <div class="contact-info">
-                    <p>👤 Your Name</p>
-                    <p>✉️ youremail@example.com</p>
-                    <p>📍 Your Location</p>
+                    <div class="conInfo">
+                    <p>👤 Jay Solapurkar</p>
+                    <p>✉️ anantasolapurkarjay@gmail.com</p>
+                    <p>📍 sweet home (ghar)</p>
                     </div>
                 </div>
-                <form>
-                    <div class="row"><input placeholder="Full Name"><input placeholder="Email Address"></div>
-                    <input placeholder="Subject">
-                    <textarea placeholder="Message"></textarea>
-                    <button class="btn">Submit</button>
-                </form>
+                <section class="contentS">
+                    <div class="contentG">
+                        <div class="box">Full Name</div>
+                        <div class="box">Email Address</div>
+                        <div class="box strech">Subject</div>
+                        <div class="box strech mBox">Message</div>
+                        <button type="button" class="submitbutton strech">Submit</button>
+                    </div>
+                </section>
             </section>
 
             <footer>
-                <p>© 2025 Your Name. All rights reserved.</p>
-                <div><span>in</span><span>🐙</span><span>▶️</span><span>📷</span></div>
+                <p>© 2026 Jay Solapurkar | All rights reserved.</p>
             </footer>
         </main>
     </body>
